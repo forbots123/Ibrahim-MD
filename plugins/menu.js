@@ -39,7 +39,6 @@ const defaultMenu = {
 %m2 *Baileys:* Multi Device
 %m2 *Prefix:* [ *%_p* ]
 %m2 *Uptime:* %muptime
-%m2 *Database:* %rtotalreg dari %totalreg
 %m3
 
 %m1 *I N F O  C M D* 
@@ -64,15 +63,15 @@ let spas = "                "
      let spas2 = "         "
      let mojis = "╰╴"
      let index = 0
-     let ktnya = ["Kamu nanya?",
- "No spam...",
- "Thanks..",
- "Menampilkan...",
- "Tunggu...",
- "Proses...",
- "Loading...",
- "Bertanya..",
- "Hooh..."]
+     let ktnya = ["you ask?",
+"No spam...",
+  "Thanks..",
+  "Shows...",
+  "Wait...",
+  "Process...",
+  "Loading...",
+  "Ask..",
+  "Hooh..."]
  let ktx = ktnya.getRandom()
 	let tags = {
   "main": "Main",
@@ -143,8 +142,7 @@ let spas = "                "
      let spas2 = "         "
      let mojis = "╰╴"
      let index = 0
-     let ktnya = ["Kamu nanya?", "No spam...", "Thanks..", "Menampilkan...", "Tunggu...", "Proses...", "Loading...", "Bertanya..", "Hooh..."]
-     let ktx = ktnya.getRandom()
+let ktnya = ["You asked?", "No spam...", "Thanks..", "Displaying...", "Wait...", "Process...", "Loading... ", "Ask..", "Hooh..."]     let ktx = ktnya.getRandom()
      
   	/* TIME ZONE */
   	let wib = moment.tz("Asia/Jakarta").format("HH:mm:ss")
